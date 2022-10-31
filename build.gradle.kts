@@ -33,7 +33,7 @@ subprojects {
     dependencyManagement {
         val springCloudDependenciesVersion: String by project
         imports {
-            mavenBom("org.springframework.cloud:spring-cloud-dependencies:${springCloudDependenciesVersion}")
+            mavenBom("org.springframework.cloud:spring-cloud-dependencies:$springCloudDependenciesVersion")
         }
     }
 

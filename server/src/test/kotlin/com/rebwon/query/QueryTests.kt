@@ -1,13 +1,12 @@
-package com.rebwon
+package com.rebwon.query
 
 import io.kotest.core.spec.style.DescribeSpec
-import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest
 import org.springframework.test.context.ActiveProfiles
 
-@SpringBootTest
+@DataJpaTest
 @ActiveProfiles("test")
-class ApplicationTests : DescribeSpec({
-
+class QueryTests : DescribeSpec({
 
     describe("application context") {
         it("loads test") {
