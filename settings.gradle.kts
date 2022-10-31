@@ -15,6 +15,8 @@ include(
     "taxi-request-api:taxi-request-domain",
     "taxi-request-api:taxi-request-infrastructure",
 )
+include("query-api")
+include("batch-api")
 
 pluginManagement {
     val kotlinVersion: String by settings
