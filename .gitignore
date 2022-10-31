@@ -36,5 +36,8 @@ out/
 ### VS Code ###
 .vscode/
 
+/docker/db/mysql/config
+/docker/db/mysql/data
+/docker/db/mysql/init
 /src/main/resources/application-prod.yml
 .jqwik-database
