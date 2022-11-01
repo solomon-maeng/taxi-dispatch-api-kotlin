@@ -42,11 +42,10 @@ subprojects {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
         implementation("org.slf4j:slf4j-api:1.7.32")
 
-        val kotestVersion = "5.5.1"
         testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter:0.4.1")
         testImplementation("org.springframework.boot:spring-boot-starter-test")
-        testImplementation("io.kotest:kotest-runner-junit5:$kotestVersion")
-        testImplementation("io.kotest:kotest-assertions-core:$kotestVersion")
+        testImplementation("io.kotest:kotest-runner-junit5:5.5.1")
+        testImplementation("io.kotest:kotest-assertions-core:5.5.1")
         testImplementation("io.kotest.extensions:kotest-extensions-spring:1.1.2")
     }
 
